@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:orientation="horizontal" >
+
+    <com.androidng.flickr.view.NetworkImageView
+        android:id="@+id/fullscreen_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/transparent_black" >
+
+        <TextView
+            android:id="@+id/fullscreen_title"
+            style="@style/title_inverse"
+            android:layout_alignParentTop="true" />
+
+        <TextView
+            android:id="@+id/fullscreen_author_by"
+            style="@style/subtitle"
+            android:layout_below="@id/fullscreen_title"
+            android:text="by:" />
+
+        <TextView
+            android:id="@+id/fullscreen_author"
+            style="@style/subtitle"
+            android:layout_below="@id/fullscreen_title"
+            android:layout_toRightOf="@id/fullscreen_author_by" />
+
+        <TextView
+            android:id="@+id/fullscreen_desc"
+            style="@style/description"
+            android:layout_below="@id/fullscreen_author" />
+
+        <TextView
+            android:id="@+id/fullscreen_tags"
+            style="@style/subtitle"
+            android:layout_below="@id/fullscreen_desc"
+            android:layout_toLeftOf="@+id/fullscreen_date" />
+
+        <TextView
+            android:id="@+id/fullscreen_date"
+            style="@style/subtitle"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/fullscreen_desc" />
+    </RelativeLayout>
+
+</RelativeLayout>

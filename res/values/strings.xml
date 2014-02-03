@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Flickr</string>
+    <string name="action_settings">Refresh</string>
+    <string name="error_message">Couldn\'t load Flickr photos, check your connection and Try again later.</string>
+
+</resources>

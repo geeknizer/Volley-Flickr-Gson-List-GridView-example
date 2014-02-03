@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <com.android.volley.toolbox.NetworkImageView
+        android:id="@+id/lv_thumb"
+        android:layout_width="80dp"
+        android:layout_height="80dp" />
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1" >
+
+        <TextView
+            android:id="@+id/lv_title"
+            style="@style/title"
+            android:layout_alignParentTop="true" />
+
+        <TextView
+            android:id="@+id/lv_author_by"
+            style="@style/subtitle"
+            android:layout_below="@id/lv_title"
+            android:text="by:" />
+
+        <TextView
+            android:id="@+id/lv_author"
+            style="@style/subtitle"
+            android:layout_below="@id/lv_title"
+            android:layout_toRightOf="@id/lv_author_by" />
+
+        <TextView
+            android:id="@+id/lv_date"
+            style="@style/subtitle"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/lv_author" />
+    </RelativeLayout>
+
+</LinearLayout>

@@ -9,3 +9,7 @@ Features / distinguishers
  * Touchable/zoomable NetworkImageView
  * List / Grid layout switcher
  * Caches json response.
+
+Author: Tarandeep singh
+http://geeknizer.com
+http://www.androidng.com

@@ -1,4 +1,4 @@
-Volley-Flickr-Gson-List-GridView-example
+[Volley Gson] Flickr ListView GridView sample
 ========================================
 
 A Volley library based GridView / ListView Flickr sample
